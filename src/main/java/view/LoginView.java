@@ -23,7 +23,7 @@ import interface_adapter.login.LoginViewModel;
  * The View for when the user is logging into the program.
  */
 public class
-LoginView extends JPanel implements ActionListener, PropertyChangeListener {
+    LoginView extends JPanel implements ActionListener, PropertyChangeListener {
 
     private final String viewName = "log in";
     private final LoginViewModel loginViewModel;

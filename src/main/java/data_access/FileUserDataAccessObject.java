@@ -93,7 +93,9 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @param name
+     * Sets the current user by their username.
+     *
+     * @param name the username of the current user to set
      */
     @Override
     public void setCurrentUser(String name) {
@@ -101,7 +103,9 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @return
+     * Retrieves the current user's username.
+     *
+     * @return the username of the current user, or null if no user is set
      */
     @Override
     public String getCurrentUser() {
